@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 128 128" role="img" aria-labelledby="title"><title id="title">倒计时 · 倒数刻度</title>
+  <rect x="2" y="2" width="124" height="124" rx="30" fill="#FFFFFF"/>
+  <g id="dial" fill="none" stroke="#1C52D4" stroke-width="9" stroke-linecap="round">
+    <path d="M96 66a32 32 0 1 1-32-32"/>
+    <path d="M64 66l17-18" stroke-width="8"/>
+  </g>
+  <g id="ticks" fill="#A8CDFF">
+    <rect x="74.5" y="32.5" width="5.5" height="10" rx="2.75" transform="rotate(22 77.25 37.5)"/>
+    <rect x="89" y="46.5" width="5.5" height="10" rx="2.75" transform="rotate(58 91.75 51.5)"/>
+  </g>
+  <circle cx="64" cy="66" r="6" fill="#1C52D4"/>
+</svg>

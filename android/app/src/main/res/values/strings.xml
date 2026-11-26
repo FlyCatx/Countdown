@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用名与系统通知文案集中在这里：manifest、通知渠道和通知正文引用同一份文本。 -->
+    <string name="app_name">倒计时</string>
+    <string name="reminder_channel_name">提前提醒</string>
+    <string name="reminder_channel_description">到达设置的提前提醒时间时提醒你</string>
+    <!-- 正文占位符是已格式化的 HH:MM:SS（小时不设上限），宿主不再按整分钟取整。 -->
+    <string name="reminder_notification_body">还剩 %1$s</string>
+</resources>
