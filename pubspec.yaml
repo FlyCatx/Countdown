@@ -1,0 +1,21 @@
+name: countdown_app
+description: "倒计时：多项目倒计时与提前提醒的安卓应用。"
+publish_to: 'none'
+
+# 版本号由用户确认为 1.0.0；构建号延续上一版的 2 递增为 3，保证覆盖安装可比对。
+version: 1.0.0+3
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
